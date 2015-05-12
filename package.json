@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/reformact/gulp-act-copy.git"
+    "url": "https://github.com/reformact/act-copy.git"
   },
   "keywords": [
     "gulp",
@@ -17,14 +17,13 @@
   "author": "= <=>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/reformact/gulp-act-copy/issues"
+    "url": "https://github.com/reformact/act-copy/issues"
   },
-  "homepage": "https://github.com/reformact/gulp-act-copy",
+  "homepage": "https://github.com/reformact/act-copy",
   "dependencies": {
     "body-parser": "^1.12.4",
     "js-yaml": "^3.3.0",
     "keystone": "^0.3.8",
-    "medium-editor": "^4.8.0",
-    "require-dir": "^0.3.0"
+    "medium-editor": "^4.8.0"
   }
 }

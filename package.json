@@ -1,6 +1,6 @@
 {
   "name": "act-copy",
-  "version": "0.1.7",
+  "version": "1.0.0",
   "description": "Gulp plugin to generate Keystone Copy model and Update Seed",
   "main": "index.js",
   "scripts": {

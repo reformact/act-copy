@@ -1,0 +1,30 @@
+{
+  "name": "act-copy",
+  "version": "0.1.7",
+  "description": "Gulp plugin to generate Keystone Copy model and Update Seed",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \"Error: no test specified\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reformact/gulp-act-copy.git"
+  },
+  "keywords": [
+    "gulp",
+    "keystone"
+  ],
+  "author": "= <=>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reformact/gulp-act-copy/issues"
+  },
+  "homepage": "https://github.com/reformact/gulp-act-copy",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "js-yaml": "^3.3.0",
+    "keystone": "^0.3.8",
+    "medium-editor": "^4.8.0",
+    "require-dir": "^0.3.0"
+  }
+}

@@ -2,6 +2,20 @@ var bodyparser = require('body-parser');
 var keystone = require('keystone');
 
 exports = module.exports = {
+  connect: function(app){
+    app.post('/copy', this.post);
+    app.get('/copy', this.get);
+  },
+  addCopyModel: function(req,res,next){
+    var locals = res.locals;
+    console.log('running addCopyModel');
+    var q = keystone.list('Copy').model.find();
+    q.exec(function(err,results){
+      locals.copy = results[results.length-1];
+      console.log(results[results.length-1]);
+      next(err);
+    }.bind(this));
+  },
   post: function(req,res){
     if (!req.user) {
       res.send('Not logged in!');
